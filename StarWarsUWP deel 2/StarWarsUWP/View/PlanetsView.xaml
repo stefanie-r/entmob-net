@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="StarWarsUWP.PlanetsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StarWarsUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding Source={StaticResource viewModelLocator}, Path=PlanetsViewModel}"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Planets" VerticalAlignment="Center" FontSize="30"></TextBlock>
+        <FlipView Background="Red" Grid.Row="1" ItemsSource="{Binding SWPlanets}" SelectedItem="{Binding SelectedSWMovie}">
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Name" FontSize="12"></TextBlock>
+                        <TextBlock Text="" FontSize="18" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="Climate" FontSize="12"></TextBlock>
+                        <TextBlock Text="" FontSize="18" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="Gravity" FontSize="12"></TextBlock>
+                        <TextBlock Text="" FontSize="18" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="Terrain" FontSize="12"></TextBlock>
+                        <TextBlock Text="" FontSize="18" FontWeight="Bold"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+    </Grid>
+</Page>
