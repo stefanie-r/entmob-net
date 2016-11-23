@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarWarsCross.Views.OnePlanetPage">
+  <StackPanel Orientation="Vertical">
+    <Label Grid.Row="0" Text="Planets" VerticalAlignment="Center" FontSize="30"></Label>
+    <Label Text="Name" FontSize="12"></Label>
+    <Label Text="" FontSize="18" FontWeight="Bold"></Label>
+    <Label Text="Climate" FontSize="12"></Label>
+    <Label Text="" FontSize="18" FontWeight="Bold"></Label>
+    <Label Text="Gravity" FontSize="12"></Label>
+    <Label Text="" FontSize="18" FontWeight="Bold"></Label>
+    <Label Text="Terrain" FontSize="12"></Label>
+    <Label Text="" FontSize="18" FontWeight="Bold"></Label>
+  </StackPanel>
+</ContentPage>

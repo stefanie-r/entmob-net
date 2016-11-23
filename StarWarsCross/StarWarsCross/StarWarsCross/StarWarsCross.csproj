@@ -36,7 +36,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Converter\DateConverter.cs" />
+    <Compile Include="Converter\PosterConverter.cs" />
+    <Compile Include="Converter\RomanConvert.cs" />
+    <Compile Include="Navigation\INavigationService.cs" />
+    <Compile Include="Navigation\NavigationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\MovieService.cs" />
+    <Compile Include="Services\PlanetService.cs" />
+    <Compile Include="Services\SWMovieService.cs" />
+    <Compile Include="Services\SWPlanetService.cs" />
+    <Compile Include="Utility\CustomCommand.cs" />
+    <Compile Include="Utility\Messenger.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModels\PlanetsViewModel.cs" />
+    <Compile Include="ViewModels\StarWarsMainViewModel.cs" />
+    <Compile Include="Views\OnePlanetView.xaml.cs">
+      <DependentUpon>OnePlanetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlanetsView.xaml.cs">
+      <DependentUpon>PlanetsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StarWarsMainView.xaml.cs">
+      <DependentUpon>StarWarsMainView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -61,8 +84,38 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Navigation\" />
-    <Folder Include="ViewModel\" />
+    <ProjectReference Include="..\..\StarWars.DAL\StarWars.DAL.csproj">
+      <Project>{eb96d0ee-6939-43cf-9f03-36a232d4ba85}</Project>
+      <Name>StarWars.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\StarWars.Domain\StarWars.Domain.csproj">
+      <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
+      <Name>StarWars.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\OnePlanetView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\StarWarsMainView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\PlanetsView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

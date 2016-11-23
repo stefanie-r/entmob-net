@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StarWarsCross.App"
+             xmlns:local="clr-namespace:StarWarsCross;assembly=StarWarsCross"
+             xmlns:converter="clr-namespace:StarWarsCross.Converters;assembly=StarWarsCross"
+             >
+  <Application.Resources>
+    <ResourceDictionary>
+      <converter:DateConverter x:Key="DateConverter" />
+      <converter:PosterConverter x:Key="PosterConverter" />
+      <converter:RomanConverter x:Key="RomanConverter" />
+      <local:ViewModelLocator x:Key="ViewModelLocator"/>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

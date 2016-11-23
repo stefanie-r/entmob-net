@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StarWarsCross.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,24 +8,22 @@ using Xamarin.Forms;
 
 namespace StarWarsCross
 {
-    public class App : Application
+    public partial class App : Application
     {
+        private ViewModelLocator locator;
         public App()
         {
+            locator = new ViewModelLocator();
             // The root page of your application
-            MainPage = new ContentPage
+            MainPage = new StarWarsMainView();
+        }
+
+        public ViewModelLocator ViewModelLocator
+        {
+            get
             {
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+                return locator;
+            }
         }
 
         protected override void OnStart()

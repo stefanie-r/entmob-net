@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsCross.Droid", "StarWarsCross\StarWarsCross.Droid\StarWarsCross.Droid.csproj", "{5A7420DF-780E-48D9-AB62-C598F077D7F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsCross.iOS", "StarWarsCross\StarWarsCross.iOS\StarWarsCross.iOS.csproj", "{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsCross", "StarWarsCross\StarWarsCross\StarWarsCross.csproj", "{28A4425A-0C3C-446E-987C-C1B032A4FCF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Domain", "StarWars.Domain\StarWars.Domain.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
@@ -113,38 +111,6 @@ Global
 		{5A7420DF-780E-48D9-AB62-C598F077D7F8}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A7420DF-780E-48D9-AB62-C598F077D7F8}.Release|x86.Build.0 = Release|Any CPU
 		{5A7420DF-780E-48D9-AB62-C598F077D7F8}.Release|x86.Deploy.0 = Release|Any CPU
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|ARM.ActiveCfg = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|x64.ActiveCfg = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Ad-Hoc|x86.ActiveCfg = Ad-Hoc|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|Any CPU.ActiveCfg = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|ARM.ActiveCfg = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|x64.ActiveCfg = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.AppStore|x86.ActiveCfg = AppStore|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|ARM.ActiveCfg = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|iPhone.Build.0 = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|x64.ActiveCfg = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Debug|x86.ActiveCfg = Debug|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|ARM.ActiveCfg = Release|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|iPhone.ActiveCfg = Release|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|iPhone.Build.0 = Release|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|x64.ActiveCfg = Release|iPhone
-		{3614A546-D0B6-4BF3-96FB-E5E19444E3E3}.Release|x86.ActiveCfg = Release|iPhone
 		{28A4425A-0C3C-446E-987C-C1B032A4FCF7}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{28A4425A-0C3C-446E-987C-C1B032A4FCF7}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{28A4425A-0C3C-446E-987C-C1B032A4FCF7}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU

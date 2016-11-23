@@ -35,8 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="StarWars.Domain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SWMovie.cs" />
+    <Compile Include="SWPlanet.cs" />
+    <Compile Include="SWResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
