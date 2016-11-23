@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Domain", "StarWars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.DAL", "StarWars.DAL\StarWars.DAL.csproj", "{15FF060D-660C-41AA-B8CB-E4108DAE7089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Tests", "StarWars.Tests\StarWars.Tests.csproj", "{E74DF82F-CB73-4343-8D73-880DA706E74C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,26 @@ Global
 		{15FF060D-660C-41AA-B8CB-E4108DAE7089}.Release|x64.Build.0 = Release|x64
 		{15FF060D-660C-41AA-B8CB-E4108DAE7089}.Release|x86.ActiveCfg = Release|x86
 		{15FF060D-660C-41AA-B8CB-E4108DAE7089}.Release|x86.Build.0 = Release|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|ARM.Build.0 = Debug|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x64.ActiveCfg = Debug|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x64.Build.0 = Debug|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x64.Deploy.0 = Debug|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x86.ActiveCfg = Debug|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x86.Build.0 = Debug|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Debug|x86.Deploy.0 = Debug|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|Any CPU.ActiveCfg = Release|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|ARM.ActiveCfg = Release|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|ARM.Build.0 = Release|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|ARM.Deploy.0 = Release|ARM
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x64.ActiveCfg = Release|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x64.Build.0 = Release|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x64.Deploy.0 = Release|x64
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x86.ActiveCfg = Release|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x86.Build.0 = Release|x86
+		{E74DF82F-CB73-4343-8D73-880DA706E74C}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
